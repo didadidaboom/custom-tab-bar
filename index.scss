@@ -1,0 +1,47 @@
+.custom-tab {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 58Px;
+  border-radius: 18px 18px 0 0;
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  &-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    &-img {
+      margin: 5PX auto 0;
+      width: 18PX;
+      height: 18Px;
+    }
+
+    &-num {
+      min-width: 12Px;
+      height: 12Px;
+      border-radius: 12Px;
+      font-size: 10Px;
+      line-height: 12Px;
+      background-color: #d51b51;
+      box-shadow: 0 0 4Px rgba(0, 0, 0, 0.5);
+      color: #fff;
+      position: absolute;
+      z-index: 5;
+      top: 15%;
+      right: 30%;
+      text-align: center;
+    }
+
+    &-text {
+      margin-top: 5Px;
+      font-size: 10Px;
+    }
+  }
+}
